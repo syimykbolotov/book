@@ -1,0 +1,28 @@
+#products {
+  padding: 30px 0;
+  .products {
+    &--blocks {
+      width: 238px;
+      height: 415px;
+      border: 2px solid black;
+      padding: 10px;
+      h3 {
+        // color: #010049;
+        font-size: 24px;
+      }
+      img {
+        height: 320px;
+        object-fit: cover;
+      }
+      &__price {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 10px 0;
+      }
+      h5 {
+        font-size: 15px;
+      }
+    }
+  }
+}

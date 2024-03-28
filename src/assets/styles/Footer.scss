@@ -1,0 +1,36 @@
+#footer {
+  padding: 30px 0 50px 0;
+  background: #010049;
+  color: white;
+  .footer {
+    h1 {
+      display: flex;
+      align-items: center;
+    }
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    &--nav {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    &--FAQ {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    &--contacts {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      gap: 10px;
+    }
+    &--addres {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      width: 30%;
+    }
+  }
+}

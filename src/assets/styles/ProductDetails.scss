@@ -1,0 +1,31 @@
+#productDetails {
+  padding: 80px 0;
+  .productDetails {
+    display: flex;
+    // align-items: center;
+    gap: 40px;
+    img {
+      width: 330px;
+      height: 460px;
+      // object-fit: cover;
+    }
+    &--text {
+      h1 {
+        font-size: 44px;
+        color: #001049;
+      }
+      h2 {
+        font-size: 24px;
+        margin: 20px 0;
+      }
+      h3 {
+        font-size: 24px;
+        margin: 40px 0 20px 0;
+      }
+      h4 {
+        font-size: 18px;
+        width: 60%;
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+#admin {
+  position: relative;
+  .admin {
+    width: 597px;
+    height: 323px;
+    border-radius: 12px;
+    position: absolute;
+    margin: 150px 23%;
+    // top: 140px;
+    // left: 450px;
+    background: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    &--rem {
+      position: absolute;
+      top: 5px;
+      right: 5px;
+      font-size: 44px;
+    }
+    input {
+      width: 340px;
+      padding: 12px 14px;
+      border: 2px solid #010049;
+      border-radius: 6px;
+    }
+    button {
+      padding: 12px 94px;
+      border-radius: 8px;
+      background: #010049;
+      color: white;
+    }
+  }
+}

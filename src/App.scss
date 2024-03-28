@@ -1,0 +1,36 @@
+@import "../src/assets/styles/Header.scss";
+@import "../src/assets/styles/Hero.scss";
+@import "../src/assets/styles/Admin.scss";
+@import "../src/assets/styles/AddProduct.scss";
+@import "../src/assets/styles/Products.scss";
+@import "../src/assets/styles/Basket.scss";
+@import "../src/assets/styles/Footer.scss";
+@import "../src/assets/styles/ProductDetails.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+input {
+  outline: none;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+html {
+  scroll-behavior: smooth;
+}
